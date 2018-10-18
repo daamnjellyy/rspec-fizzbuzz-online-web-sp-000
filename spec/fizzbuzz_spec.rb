@@ -3,7 +3,7 @@ require_relative '../fizzbuzz.rb'
 # We are missing a 'require_relative' here. Check README.md for instructions and an explanation!
 def fizzbuzz(number)
   if number % 3 == 0
-    puts "Fizz"
+    "Fizz"
   elsif number % 5 == 0
     puts "Buzz"
   elsif number / 15
